@@ -48,4 +48,3 @@ async def repo(_, message):
 ----------------```
     await app.send_message(
         message.chat.id, text=text, disable_web_page_preview=True
-    )
