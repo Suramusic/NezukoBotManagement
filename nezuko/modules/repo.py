@@ -42,7 +42,7 @@ async def repo(_, message):
         for count, user in enumerate(users, start=1)
     )
 
-    text = f"""[Owner](https://t.me/thavarajtj) | [Channel](t.me/Alinallmovies)
+    text = f"""[Owner](t.me/thavarajtj) | [Channel](t.me/Alinallmovies)
     await app.send_message(
         message.chat.id, text=text, disable_web_page_preview=True
     )
