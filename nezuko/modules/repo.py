@@ -43,6 +43,3 @@ async def repo(_, message):
     )
 
     text = f"""[Owner](t.me/thavarajtj) | [Channel](t.me/Alinallmovies)
-    await app.send_message(
-        message.chat.id, text=text, disable_web_page_preview=True
-    )
