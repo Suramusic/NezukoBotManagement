@@ -246,7 +246,7 @@ async def take_ss(_, message):
     try:
         await app.send_photo(
             message.chat.id,
-            photo="https://telegra.ph/file/01c5ff3817fcedc4d08c6.jpg",
+            photo="https://webshot.amanoteam.com/print?q={url}",
         )
     except Exception:
         return await m.edit("No Such Website.")
