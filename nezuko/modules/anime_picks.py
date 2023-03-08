@@ -74,14 +74,14 @@ for _i in commands:
 __HELP__ += (
     "\n\n**Get NSFW (Not Safe for work) Anime Pics. Try This Commands:**"
 )
-nsfw_commands = ["trap", "blowjob", "nsfwwaifu", "nwaifu", "nsfwneko"]
+nsfw_commands = ["trap"]
 for _i in nsfw_commands:
     __HELP__ += f"\n/{_i}"
 
 __HELP__ += "\n\n** Turn on/off NSFW by /nsfw on/off **"
 
 
-@app.on_message(filters.command("waifu"))
+@app.on_message(filters.command("happy"))
 @capture_err
 async def waifu(client, message):
     m = await message.reply_text("Getting a random waifu...")
